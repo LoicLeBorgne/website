@@ -2,89 +2,70 @@
 <html lang="en">
 
   <head>
-    <title>Loic Website - for fun - Main page</title>
+    <meta name="author" content="Loic Le borgne">
+    <title>Loic Website - for fun - Bootstrap version</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <script src="https://kit.fontawesome.com/793448def3.js" crossorigin="anonymous"></script>
 
-    <!-- Main stylesheet for the design -->
-    <link rel="stylesheet" href="style/maincss.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
 
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="maincustom.css" rel="stylesheet">
   </head>
 
   <body>
 
-    <div class="header">
-      <h1>My Website</h1>
-      <p>A website created by me.</p>
-      <p><a href="bootstrap/index.html">Bootstrap version</a></p>
-    </div>
 
-    <!-- Navigation bar -->
-    <header class="header">
-      <nav id="primary_nav">
-        <div class="header_icon" onclick="toggleMobileMenu(this)"><i class="fa-solid fa-bars"></i></div>
-        <ul>
-          <li><a href="">Portfolio</a></li>
-
-          <li><a href="">About Me</a></li>
-
-          <li><a href="">Nonsense</a></li>
-
-          <li><a href="">Services</a></li>
-
-          <li><a href="">Contact</a></li>
-
-        </ul>
-      </nav>
-      <!--end primary_nav-->
-    </header>
-
-    <!-- Main content -->
     <main>
-      <div class="row">
-        <div class="side">
-          <h2>About Me</h2>
-          <h5>Photo of me:</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-          <h3>More Text</h3>
-          <p>Lorem ipsum dolor sit ame.</p>
-          <div class="fakeimg" style="height:60px;">Image</div><br>
-          <div class="fakeimg" style="height:60px;">Image</div><br>
-          <div class="fakeimg" style="height:60px;">Image</div>
+      <header>
+        <div class="container">
+          <div class="row">
+            <h1>Welcome to my Website</h1>
+          </div>
         </div>
-        <div class="main">
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Dec 7, 2017</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco.</p>
-          <br>
-          <h2>TITLE HEADING</h2>
-          <h5>Title description, Sep 2, 2017</h5>
-          <div class="fakeimg" style="height:200px;">Image</div>
-          <p>Some text..</p>
-          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco.</p>
+      </header>
+      <div class="container portfolio">
+        <div class="row">
+
+          <div class="col-md-6">
+            <a href="portfolio/index.html">
+              <div class="portfolio_in port1 border rounded">
+                <h3>Portfolio</h3>
+                <p>My portfolio so far</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a href="bootstrap/index.html">
+              <div class="portfolio_in port2 border rounded">
+                <div class="row">
+                  <div class="col-md-9">
+                    <h3>Nudi</h3>
+                    <p>Website using Bootstrap 5.2</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="nudi-02.png" alt="Nudi Website">
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+
         </div>
       </div>
     </main>
 
-    <!-- Footer content -->
-    <footer>
-      <div class="footer">
-        <h2>Footer</h2>
-      </div>
 
-    </footer>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
-    <script src="javascript/menu.js"></script>
   </body>
 
 </html>

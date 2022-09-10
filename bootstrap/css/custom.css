@@ -187,8 +187,48 @@ iframe#ytplayer {
     height: 100%;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .navbar-nav a,.navbar-nav a.active {
+        font-weight: 800;
+    }
+
+    .jumbotron {
+        background-image: none;
+    }    
+    .jumbotron h1 {
+        color: black;
+        font-size: 45px;
+    }
+    
+    .jumbotron p {
+        color: black;
+        font-size: 40px;
+    }
+    .pann {
+        border-top: 1px solid #c5c5c5;
+    }
+    
+    .pann i {
+        padding-top: 25px;
+    }
+
+
+
+    .contact-form {
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0!important;
+        box-shadow: none!important;
+    }
+}
+
+@media (min-width: 576px) {
+    
 }
