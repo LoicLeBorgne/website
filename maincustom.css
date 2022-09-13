@@ -33,3 +33,6 @@ header h1 {
 .portfolio_in img {
     width: 100%;
 }
+.portfolio .col-md-6 {
+    margin-top: 4%;
+}
